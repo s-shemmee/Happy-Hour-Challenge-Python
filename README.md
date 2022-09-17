@@ -1,4 +1,4 @@
- Happy Hour Challenge
+# Happy Hour Challenge
 
 *Here's a step-by-step breakdown of our Python code.* 
 
