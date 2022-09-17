@@ -1,6 +1,6 @@
 # Happy Hour Challenge
 
-## Deufult code
+## Default code
 
 ```py
 import random
