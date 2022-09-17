@@ -1,50 +1,77 @@
 # Happy Hour Challenge
 
-*Here's a step-by-step breakdown of our Python code.* 
+## Deufult code
 
-## 1. Top of the file
+```py
+import random
+
+bars = ["Shoolbred's",
+        "The Wren",
+        "The Scratcher",
+        "ACME",
+        "Blind Barber"]
+
+people = ["Mattan",
+          "Chris",
+          "that person you forgot to text back",
+          "Kanye West",
+          "Samule L. Jackson"]
+
+random_bar = random.choice(bars)
+random_person = random.choice(people)
+
+
+print(f"How about you go to {random_bar} with {random_person}?")
+```
+
+## Step by Step Explanation 
+
+1. Top of the file
 
 ```py
 import random
 ```
 
-*This imports other code. A library called 'random' that later allows us to pick out a random place or random person from our lists.*
+*This imports other code. A library called 'random' that later allows us to pick out a random bar or random person from our lists.*
 
-## 2. Lists of Places & People 
-
-```py
-Places = ["MacDo",
-        "LCW",
-        "Marjan",
-        "Picsin",
-        "Burger King",
-        "Hamam"]
-
-people = ["Ali",
-          "Hamza",
-          "Hassan",
-          "Salma",
-          "Ghelo",
-          "Sokky"
-          "Robi",
-          "Oummy"]
-```
-
-*These are lists of places and people. They are going to be pulled into...*
-
-## 3. Pick a random place and a random person
+2. Lists of Bars & People
 
 ```py
-random_place = random.choice(Places)
-random_person_one = random.choice(people)
+bars = ["Shoolbred's",
+        "The Wren",
+        "The Scratcher",
+        "ACME",
+        "Blind Barber"]
+
+people = ["Mattan",
+          "Chris",
+          "that person you forgot to text back",
+          "Kanye West",
+          "Samule L. Jackson"]
 ```
 
-*This is where our script picks a random place and a random person.*
+*These are lists of bars and people. They are going to be pulled into...*
 
-## 4. Print out the results
+3. Pick a random bar and a random person
 
 ```py
-print(f"How about you go to {random_place} with {random_person_one}
+random_bar = random.choice(bars)
+random_person = random.choice(people)
 ```
 
-*This line prints out the random place and random person.*
+*This is where our script picks a random bar and a random person.*
+
+4. Print out the results
+
+```py
+print(f"How about you go to {random_bar} with {random_person_one} 
+```
+
+*This line prints out the random bar and random person.*
+
+
+# The Happy Hour Challenge is
+
+- I misspelled Samuel L Jackson's name. Fix the typo.
+- Add another person to the list of people.
+- Change the script so it prints out two random people instead of one. (ex. How about you go to Lion's Head Tavern with Mattan and Chris?)
